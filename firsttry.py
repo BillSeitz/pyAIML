@@ -10,7 +10,7 @@ k = aiml.Kernel()
 k.learn("firsttry.aiml")
  
 # set a constant
-k.setBotPredicate("name", "Chatty")
+k.setBotPredicate("name", "FirstTry")
  
 while True:
     input = raw_input("> ")

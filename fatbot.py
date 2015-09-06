@@ -6,11 +6,12 @@ import commands
  
 k = aiml.Kernel()
  
-# load the aiml file
-k.learn("aiml-other/eliza.aiml")
- 
 # set a constant
-k.setBotPredicate("name", "ELIZA")
+k.setBotPredicate("name", "FatBot")
+k.setBotPredicate("secure", "yes")
+ 
+# load the aiml file
+k.learn("fatbot.aiml")
  
 while True:
     input = raw_input("> ")
