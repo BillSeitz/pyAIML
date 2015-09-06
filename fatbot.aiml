@@ -25,8 +25,8 @@ Interpreter Version Info: <version/>
 <template>
 <!-- only allow this operation if the "secure" predicate is set to yes. -->
 <condition name="secure">
-    <li value="yes"><learn>aiml/*.aiml</learn></li>
-    <li>You are not permitted to load AIML sets.</li>
+    <li value="yes"><learn>aiml-en-us-foundation-alice/*.aiml</learn></li>
+    <li>You are not permitted to load AIML sets (A).</li>
 </condition>
 </template>
 </category>
@@ -44,7 +44,7 @@ Interpreter Version Info: <version/>
         <!-- Load any Howie-specific AIML files -->
         <learn>standard/howie-*.aiml</learn>
     </li>
-    <li>You are not permitted to load AIML sets.</li>
+    <li>You are not permitted to load AIML sets (B).</li>
 </condition>
 </template>
 </category>
@@ -56,7 +56,7 @@ Interpreter Version Info: <version/>
 <!-- only allow this operation if the "secure" predicate is set to yes. -->
 <condition name="secure">
     <li value="yes"><learn><star/></learn></li>
-    <li>You are not permitted to load AIML files.</li>
+    <li>You are not permitted to load AIML files (while running).</li>
 </condition>
 </template>
 </category>
